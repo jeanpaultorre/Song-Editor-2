@@ -1,0 +1,19 @@
+EXTRA CREDIT 1:
+TO INCREASE TEMPO PRESS AND RELEASE KEYBOARD LETTER I
+TO DECREASE TEMPO PRESS AND RELEASE KEYBOARD LETTER D
+
+TO ADD A NOTE OF A GIVEN DURATION PRESS AND HOLD IN THE KEYBOARD
+
+EXTRA CREDIT 2:
+TO ADD A REPEAT GO TO TEXT FILE OF THE COMPOSITION
+AND TYPE "repeat" with the beginning and end of the repeat
+
+EXTRA CREDIT 3
+TO ADD AN ENDING GO TO THE TEXT FILE OF THE COMPOSITION
+AND TYPE "ending" with the beginning and end of the endings
+the first ending will be used as the location where the endings
+start
+
+------------------------------------------------------------------
+TO RUN GO TO THE MusicEditor File and run it.
+Change text-file to whatever you want.

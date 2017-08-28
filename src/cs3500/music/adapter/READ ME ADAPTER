@@ -1,0 +1,18 @@
+AdapterImpl
+
+
+This adapter is for my provider's Model interface.
+It implements my provider's model interface and has a field of my Note class that I call
+in the methods.
+
+
+We had different ways of representing a Collection of Notes.
+Most methods had similar operations in both my model my provider's model.
+----------------------------------------------------------------------------------------------------
+NoteAdapterImpl
+
+This adapter is for my provider's Note interface.
+It implements my provider's note interface and has a field of my Note class that I call in
+the methods.
+
+We had very similar Note classes.

@@ -1,0 +1,35 @@
+Controller:
+
+I created three controllers for the three views provided by my controller.
+Each implements the interface that I originally created for my Controller.
+
+
+ProviderConsoleController - The controller for the ConsoleView
+ProviderGuiController - The controller for the GuiView
+ProviderMidiController - The controller for the MidiController
+ProviderControllerFactory - The factory to choose a controller.
+
+
+
+Provider Did not have a composite view so I could not make a controller for the view.
+----------------------------------------------------------------------------------------------------
+Model: Did not change anything
+
+IMusicModel - Model Interface
+INote - Note interface
+Pitch - Pitch representation used in INote.
+
+----------------------------------------------------------------------------------------------------
+util:
+
+NoteOperations: Did not change anything
+
+This is used in the provider's View. Needed it in order for their view to Compile
+----------------------------------------------------------------------------------------------------
+View: Did not change anything
+
+ConcreteGuiViewPanel: Draws everything
+ConsoleView: Prints out in Console
+GuiViewFrame: Displays the Gui
+IMusicEditorView: Interface for the Views
+MidiViewImpl: Renders the Midi music.

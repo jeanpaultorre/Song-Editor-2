@@ -1,0 +1,18 @@
+Updates:
+
+Added a provider package.
+I've put a READ ME file in the provider package.
+
+Added an adapter package.
+I've pu a READ ME file in the adapter package.
+
+Provider did not provide a Composite view so I worked with what I had.
+
+I changed the main method in MusicEditor to work with an adapter.
+
+----------------------------------------------------------------------------------------------------
+Type in file then view in order to bring up
+composite = "composite" This will throw an error because provider did not provide one.
+guiView = "visual"
+midi = "midi"
+console = "console"
