@@ -34,10 +34,6 @@ public class GuiViewFrame extends JFrame implements IView {
    * Creates new GuiView.
    */
   public GuiViewFrame(ReadOnlyMusicEditorModel model) {
-    ArrayList<Integer> fake = new ArrayList();
-    fake.add(1);
-    fake.add(4);
-    fake.add(20);
     this.concrete = new ConcreteGuiViewPanel(model);
     this.piano2 = new PianoGuiView(concrete, model);
     this.gui = concrete;
@@ -151,15 +147,8 @@ public class GuiViewFrame extends JFrame implements IView {
     return concrete.getRedLineBeat();
   }
 
-  public void updatePracticeNote(Point mouse) {
-    piano2.updatePracticeNote(mouse);
-  }
-
   public int currentSize() {
     return concrete.getNotesAtRedLineLocation().size();
   }
 
-  public boolean completePractice() {
-    return piano2.completePractice();
-  }
 }
